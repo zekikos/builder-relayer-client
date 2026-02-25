@@ -1,7 +1,7 @@
 .PHONY: build
 build:
 	@echo "Building ts code..."
-	pnpm clean && tsc --project tsconfig.production.json
+	npm run clean && npx tsc --project tsconfig.production.json
 
 .PHONY: test
 test:
