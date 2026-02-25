@@ -10,7 +10,8 @@
     "scripts": {
         "build": "make build",
         "clean": "rm -rf ./dist",
-        "test": "make test"
+        "test": "make test",
+        "prepare": "npm run build"
     },
     "devDependencies": {
         "@types/chai": "5.2.2",
